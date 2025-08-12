@@ -1,0 +1,10 @@
+{
+  "door_gb_lower_left": {
+    "connects": ["brinstar_green.lower_left", "norfair_main.lower_right"],
+    "requires": { "and": ["morph_ball"] }
+  },
+  "door_gb_upper_right": {
+    "connects": ["brinstar_green.upper_right", "brinstar_pink.lower_left"],
+    "requires": {}
+  }
+}

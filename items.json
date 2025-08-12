@@ -1,0 +1,7 @@
+{
+  "Missile": { "ammo": 1, "type": "missile" },
+  "SuperMissile": { "ammo": 1, "type": "super" },
+  "PowerBomb": { "ammo": 1, "type": "powerbomb" },
+  "EnergyTank": { "health": 100, "type": "energy" },
+  "ReserveTank": { "health": 100, "type": "energy" }
+}

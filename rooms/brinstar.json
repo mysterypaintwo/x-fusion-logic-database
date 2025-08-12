@@ -1,0 +1,35 @@
+{
+    "brinstar_green": {
+      "name": "Green Brinstar Main Shaft",
+      "sections": {
+        "lower_left": {
+          "requires": {
+            "base": ["morph_ball"],
+            "resources": {
+              "missiles": { "min": 2 },
+              "super_missiles": { "min": 0 },
+              "power_bombs": { "min": 1 },
+              "energy": { "min_tanks": 2, "reserve_tanks": 0 }
+            },
+            "difficulty_overrides": {
+              "normal": [],
+              "hard": ["mockball"], 
+              "expert": ["short_charge"]
+            }
+          },
+          "doors": ["door_gb_lower_left"],
+          "locations": ["brinstar_early_missile"]
+        },
+        "upper_right": {
+          "requires": {
+            "base": [],
+            "resources": {},
+            "difficulty_overrides": {}
+          },
+          "doors": ["door_gb_upper_right"],
+          "locations": ["brinstar_charge_beam"]
+        }
+      }
+    }
+  }
+  

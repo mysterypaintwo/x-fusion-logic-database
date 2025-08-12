@@ -1,0 +1,18 @@
+{
+    "brinstar_early_missile": {
+      "name": "Early Missile in Green Brinstar",
+      "requires": { "and": ["morph_ball"] },
+      "item": "missile_pack"
+    },
+    "brinstar_charge_beam": {
+      "name": "Charge Beam in Green Brinstar",
+      "requires": { 
+        "and": [
+          "morph_ball", 
+          { "or": ["bombs", "power_bomb"] }
+        ]
+      },
+      "item": "charge_beam"
+    }
+  }
+  
